@@ -1,3 +1,12 @@
+h3{
+  font-family: 'IBM Plex Mono', monospace;
+
+}
+h1{
+  font-family: 'Amatic SC', cursive;
+
+}
+
 .App {
   /* background: #200122; 
 background: -webkit-linear-gradient(to right, #6f0000, #200122);
@@ -11,10 +20,10 @@ background: linear-gradient(to right, #004e92, #000428);  */
 background: -webkit-linear-gradient(to right, #292E49, #536976);
 background: linear-gradient(to right, #292E49, #536976); */
 
-background: #23074d;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+/* background: #23074d; 
+background: -webkit-linear-gradient(to right, #cc5333, #23074d);
+background: linear-gradient(to right, #cc5333, #23074d); */
 
   height: 100vh;
   background-attachment: fixed;
@@ -24,17 +33,30 @@ background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, F
 
 .titulo{
   text-align: center;
-  margin-top: 2%;
+  margin-top: 25px;
   color: white;
-  
+  text-shadow: 1px 2px 20px rgb(51, 51, 51);
+
 }
+
+.logo{
+  width: 40px;
+  height: 40px;
+  text-shadow: 1px 2px 20px rgb(51, 51, 51);
+
+}
+
 .footer{
   font-size: 10px;
   position: absolute;
   text-align: center;
   color: white;
   align-self: flex-end;
-  
+
+}
+
+.footer h6{
+  font-family: 'Reenie Beanie', cursive;
 
 }
 
@@ -44,21 +66,17 @@ background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, F
   height: 100%;
   position: absolute;
 }
+
+
+
 .pergunta{
   width: 500px;
-  margin-top: 10%;
+  margin-top: 120px;
   margin-right: 5px;
   margin-left: 5px;
 
   position: absolute;
 
-}
-
-@media (max-width: 700px){
-  .pergunta{
-    width: 90%;
-    margin-top: 20%;  
-  }
 }
 
 
@@ -67,31 +85,24 @@ background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, F
   /* background-image: url("/public/image/3.jpg"); */
  background-color: ghostwhite;
   max-width: 80%;
-  margin-top: 10%;
+  margin-top: 120px;
   margin-right: 5px;
   margin-left: 5px;
 text-align: center;
   position: absolute;
 
 }
-.titulo-resultado{
-  
-  
+
+
+
+
+.modal{
+  background-color: rgba(0, 0, 0, 0.705);
 }
-/* .nome-resultado{
-  position: absolute;
-  text-align: center;
-  height: 50px;
-  width: 200px;
-  background-color: yellow;
+
+.close{
   color: white;
-  float: top;
-	top: -25px;
-  right: 50%;
-  left: 150px;
-	z-index: 10;
-  
-} */
+}
 
 .borda-modal{
   /* background: #200122; 
@@ -116,33 +127,50 @@ background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, F
   border: none;
   border-radius: 0%;
   box-shadow: 1px 2px 20px rgb(51, 51, 51);
+  
 }
 
 .modal-header{
+  border-radius: 0%;
   border-bottom: none;
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 0%);
+  color: white;
+  
 }
+
+.modal-dialog{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
 
 .btn{
   margin: 2px;
   max-width: 400px;
 }
 
-
-
 /* Botão superior esquerdo */
 .btnNavegacao{
-  font-size: 30px;
+  font-size: 40px;
   position: fixed;
 	float: top;
 	top: 15px;
-	left: 15px;
-	z-index: 100;
+	left: 25px;
+  z-index: 100;
+  
 }
 
+
 .btnAjuda, .btnRecomecar{
-  color: yellow;
+  color: rgb(255, 230, 0);
   display: inline-block;
-  
+  padding: 0px;
+  text-shadow: 1px 2px 20px rgba(51, 51, 51, 0.678);
+
 }
 
 .btnCircular{
@@ -152,12 +180,23 @@ background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, F
 
 .btnNavegacao :hover{
   font-size: 60px;
-  color: yellow;
+  color: rgb(255, 230, 0);
+  
 }
 
 
 
 
 
-/* Loading */
+@media (max-width: 700px){
+  .pergunta{
+    width: 90%;
+   
+  }
+  .btnNavegacao{
+    top: 100px;
+    left: 5px;
+   
+  }
 
+}

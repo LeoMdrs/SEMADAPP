@@ -15,11 +15,12 @@ class Resultado extends Component {
                 <div className="card-body">
                     <text>RESULTADO</text>
                     <div className="titulo-resultado">
-                        <h2 className="">{ this.props.resultado.nome }</h2>
+                        <h3 className="">{ this.props.resultado.nome }</h3>
                     </div>
+                    <br></br>
                     <div className="">
-                        <p>{ this.props.resultado.descricao }</p>
-
+                        <text>{ this.props.resultado.descricao }</text>
+                        <br></br><br></br>
                         <span class="badge badge-pill badge-danger">Perguntas respondidas: { this.props.numeroPerguntas }</span>
                     </div>
                 </div>

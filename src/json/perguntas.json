@@ -1,10 +1,7 @@
 {
     "perguntas": [
-        
-
-
         {
-            "cabecalho": "Funcionalidades do dispositivo (Camera, Microfone, Notificações Push etc) serão necessárias na aplicação?",
+            "cabecalho": "Funcionalidades do dispositivo (Câmera, Microfone, Notificações Push etc) serão necessárias na aplicação?",
             "alternativas": [
                 {
                     "resposta": " Sim, serão.",
@@ -18,19 +15,18 @@
                 }
             ]
         },
-        
         {
             "cabecalho": "A aplicação será multiplataforma?",
             "alternativas": [
                 {
-                    "resposta": "Sim, será portada para vários sistemas operacionais diferentes.",
+                    "resposta": "Sim, para vários sistemas operacionais diferentes.",
                     "tipo": "confirmacao",
                     "id_proxima_pergunta": 2
                 },
                 {
                     "resposta": "Não, será apenas para uma única plataforma.",
                     "tipo": "negacao",
-                    "id_proxima_pergunta": "Nativo"
+                    "id_proxima_pergunta": 14
                 }
             ]
         },
@@ -38,7 +34,7 @@
             "cabecalho": "O que você considera mais importante para a aplicação em questão:",
             "alternativas": [
                 {
-                    "resposta": "Presar pela experiência do usuário.",
+                    "resposta": "Prezar pela experiência do usuário.",
                     "tipo": "importancia",
                     "id_proxima_pergunta": 3
                 },
@@ -48,20 +44,19 @@
                     "id_proxima_pergunta": 6
                 },
                 {
-                    "resposta": "Baixo custo.",
+                    "resposta": "Baixo custo de desenvolvimento.",
                     "tipo": "importancia",
                     "id_proxima_pergunta": 6
                 }
             ]
         },
-
         {
             "cabecalho": "A aplicação requer muito apelo gráfico ou de processamento?",
             "alternativas": [
                 {
                     "resposta": "Sim, requer.",
                     "tipo": "confirmacao",
-                    "id_proxima_pergunta": "Nativo"
+                    "id_proxima_pergunta": 100
                 },
                 {
                     "resposta": "Não.",
@@ -76,7 +71,7 @@
                 {
                     "resposta": "Sim, trabalhará.",
                     "tipo": "confirmacao",
-                    "id_proxima_pergunta": "Nativo"
+                    "id_proxima_pergunta": 100
                 },
                 {
                     "resposta": "Não.",
@@ -96,7 +91,7 @@
                 {
                     "resposta": "Não necessariamente.",
                     "tipo": "negacao",
-                    "id_proxima_pergunta": "Nativo"
+                    "id_proxima_pergunta": 100
                 }
             ]
         },
@@ -106,7 +101,7 @@
                 {
                     "resposta": "Sim, necessita.",
                     "tipo": "confirmacao",
-                    "id_proxima_pergunta": "Hibrido Mixado"
+                    "id_proxima_pergunta": 15
                 },
                 {
                     "resposta": "Não necessariamente.",
@@ -121,19 +116,15 @@
                 {
                     "resposta": "Sim, estaria.",
                     "tipo": "confirmacao",
-                    "id_proxima_pergunta": "App Web Progessivo"
+                    "id_proxima_pergunta": 108
                 },
                 {
                     "resposta": "Não, prefiro alguma tradicional.",
                     "tipo": "negacao",
-                    "id_proxima_pergunta": "Hibrido"
+                    "id_proxima_pergunta": 16
                 }
             ]
         },
-
-
-
-
         {
             "cabecalho": "A aplicação requer internet para o seu funcionamento?",
             "alternativas": [
@@ -165,7 +156,7 @@
             ]
         },
         {
-            "cabecalho": "A aplicação necessita de uma versão para dispotivos movéis?",
+            "cabecalho": "A aplicação necessita de uma versão para dispositivos móveis?",
             "alternativas": [
                 {
                     "resposta": "Sim, necessita.",
@@ -173,9 +164,9 @@
                     "id_proxima_pergunta": 11
                 },
                 {
-                    "resposta": "Não, apenas desktop.",
+                    "resposta": "Não, apenas para desktop.",
                     "tipo": "negacao",
-                    "id_proxima_pergunta": "Site Desktop"
+                    "id_proxima_pergunta": 105
                 }
             ]
         },
@@ -183,14 +174,14 @@
             "cabecalho": "A aplicação será acessada em muitos tipos de dispostivos diferentes?",
             "alternativas": [
                 {
-                    "resposta": "Sim, usuários poderam acessar apartir de uma variedade de dispositivos.",
+                    "resposta": "Sim, usuários poderão acessar a partir de uma variedade de dispositivos.",
                     "tipo": "confirmacao",
                     "id_proxima_pergunta": 12
                 },
                 {
                     "resposta": "Não.",
                     "tipo": "negacao",
-                    "id_proxima_pergunta": "App Web Simples"
+                    "id_proxima_pergunta": 106
                 }
             ]
         },
@@ -205,27 +196,115 @@
                 {
                     "resposta": "Não.",
                     "tipo": "negacao",
-                    "id_proxima_pergunta": "App Web Responsivo"
+                    "id_proxima_pergunta": 107
                 }
             ]
         },
         {
-            "cabecalho": "Quando executado em um celular, a aplicação terá funcionalidades diferentes  de quando execultada em um Pc/Tablet?",
+            "cabecalho": "Quando executado em um celular, a aplicação terá funcionalidades diferentes de quando executada em um Pc/Tablet?",
             "alternativas": [
                 {
                     "resposta": "Sim, terá funcões exclusivas para os celulares.",
                     "tipo": "confirmacao",
-                    "id_proxima_pergunta": "App Web Dedicado"
+                    "id_proxima_pergunta": 109
                 },
                 {
                     "resposta": "Não.",
                     "tipo": "negacao",
-                    "id_proxima_pergunta": "App Web Adaptativo"
+                    "id_proxima_pergunta": 16
+                }
+            ]
+        },
+        {
+            "cabecalho": "Futuramente, o mesmo aplicativo poderá também ser lançado em outras plataformas?",
+            "alternativas": [
+                {
+                    "resposta": "Sim, há interesse.",
+                    "tipo": "confirmacao",
+                    "id_proxima_pergunta": 6
+                },
+                {
+                    "resposta": "Não, o aplicativo terá apenas uma versão.",
+                    "tipo": "negacao",
+                    "id_proxima_pergunta": 100
+                }
+            ]
+        },
+        {
+            "cabecalho": "Sobre ferramentas de desenvolvimento: O que é considerado mais importante para a aplicação?",
+            "alternativas": [
+                {
+                    "resposta": "Maior reaproveitamento de código e praticidade.",
+                    "tipo": "importancia",
+                    "id_proxima_pergunta": 103
+                },
+                {
+                    "resposta": "Mais tempo de mercado e comunidade maior.",
+                    "tipo": "importancia",
+                    "id_proxima_pergunta": 104
+                }
+            ]
+        },
+        {
+            "cabecalho": "A aplicação terá um ciclo de vida longo?",
+            "alternativas": [
+                {
+                    "resposta": "Sim.",
+                    "tipo": "confirmacao",
+                    "id_proxima_pergunta": 101
+                },
+                {
+                    "resposta": "Não, tem um tempo determinado.",
+                    "tipo": "negacao",
+                    "id_proxima_pergunta": 17
+                }
+            ]
+        },
+        {
+            "cabecalho": "O que você considera mais importante para o desenvolvimento da aplicação:",
+            "alternativas": [
+                {
+                    "resposta": "Melhor interface e desempenho.",
+                    "tipo": "importancia",
+                    "id_proxima_pergunta": 101
+                },
+                {
+                    "resposta": "Desenvolvimento acelerado.",
+                    "tipo": "importancia",
+                    "id_proxima_pergunta": 102
+                }
+            ]
+        },
+        {
+            "cabecalho": "É uma aplicação de tempo real (Ex: Streaming de vídeo, Chat online)?",
+            "alternativas": [
+                {
+                    "resposta": "Sim.",
+                    "tipo": "confirmacao",
+                    "id_proxima_pergunta": 110
+                },
+                {
+                    "resposta": "Não.",
+                    "tipo": "negacao",
+                    "id_proxima_pergunta": 19
+                }
+            ]
+        },
+        {
+            "cabecalho": "A aplicação é muito grande e exige, por exemplo, uso intensivo de CPU?",
+            "alternativas": [
+                {
+                    "resposta": "Sim.",
+                    "tipo": "confirmacao",
+                    "id_proxima_pergunta": 111
+                },
+                {
+                    "resposta": "Não, é simples.",
+                    "tipo": "negacao",
+                    "id_proxima_pergunta": 110
                 }
             ]
         }
-
-
 
     ]
 }

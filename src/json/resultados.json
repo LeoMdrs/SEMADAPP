@@ -2,41 +2,69 @@
     "resultados": [
 
         {
+            "id": 100,
             "nome": "Nativo",
-            "descricao": "Os aplicativos criados, projetados e codificados para plataformas específicas, como iOS, Android e Windows, são aplicativos nativos. Eles são mais complexos quando comparados a aplicativos da web, em termos do fato de levarem em conta a linguagem de software usada no dispositivo, ferramentas de desenvolvimento necessárias para eles , elementos de interface do usuário necessários e kits de desenvolvimento de software (SDKs). Os aplicativos Nativos proporcionam experiência de usuário superior em termos de velocidade e capacidade de resposta e tem todos os recursos no nível do dispositivo acessíveis. Além disso eles podem trabalhar offline, estar em uma loja de aplicativos e ter menos uso de hardware qque outros tipos de app's."
+            "descricao": ""
+        },
+        
+        {
+            "id": 101,
+            "nome": "Híbrido",
+            "descricao": "Dica: Xamarim"
         },
         {
-            "nome": "Hibrido",
-            "descricao": "descricao2"
+            "id": 102,
+            "nome": "Híbrido",
+            "descricao": "Dica: Ionic"
+        },
+        
+        {
+            "id": 103,
+            "nome": "Híbrido Mixado",
+            "descricao": "Dica: NativeScript"
         },
         {
-            "nome": "Hibrido Mixado",
-            "descricao": "descricao3"
+            "id": 104,
+            "nome": "Híbrido Mixado",
+            "descricao": "Dica: React Native"
         },
-        {
-            "nome": "Site Desktop",
-            "descricao": "descricao4"
-        },
-        {
-            "nome": "App Web Simples",
-            "descricao": "descricao5"
-        },
-        {
-            "nome": "App Web Responsivo",
-            "descricao": "descricao6"
-        },
-        {
-            "nome": "App Web Dedicado",
-            "descricao": "descricao7"
-        },
-        {
-            "nome": "App Web Progessivo",
-            "descricao": "descricao8"
-        },
-        {
-            "nome": "App Web Adaptativo",
-            "descricao": "descricao8"
-        }
 
+        {
+            "id": 105,
+            "nome": "Site Desktop",
+            "descricao": ""
+        },
+        {
+            "id": 106,
+            "nome": "App Web Simples",
+            "descricao": ""
+        },
+        {
+            "id": 107,
+            "nome": "App Web Responsivo",
+            "descricao": ""
+        },
+        {
+            "id": 108,
+            "nome": "App Web Progessivo",
+            "descricao": ""
+        },
+        {
+            "id": 109,
+            "nome": "App Web Dedicado",
+            "descricao": ""
+        },
+        
+        {
+            "id": 110,
+            "nome": "App Web Adaptativo",
+            "descricao": "Dica: Nodejs + React"
+        },
+        {
+            "id": 111,
+            "nome": "App Web Adaptativo",
+            "descricao": "Dica: Php7 + Laravel"
+        }
+        
     ]
 }

@@ -28,15 +28,7 @@ class TelaPerguntas extends Component{
     }
 
     chegouFim = (()=>{
-        return (this.state.pergunta_atual === 'Nativo' ||
-                this.state.pergunta_atual ===  'Hibrido' ||
-                this.state.pergunta_atual ===  'Hibrido Mixado' ||
-                this.state.pergunta_atual === 'Site Desktop' ||
-                this.state.pergunta_atual === 'App Web Simples' ||
-                this.state.pergunta_atual === 'App Web Responsivo' ||
-                this.state.pergunta_atual === 'App Web Adaptativo' ||
-                this.state.pergunta_atual === 'App Web Dedicado' ||
-                this.state.pergunta_atual === 'App Web Progessivo')? true : false;
+        return (this.state.pergunta_atual > 99)? true : false;
     })
 
     escolheuOpcao(id_proxima_pergunta){
@@ -53,11 +45,11 @@ class TelaPerguntas extends Component{
         })
     }
 
-    buscarResultado(nome_resultado){
+    buscarResultado(id_resultado){
         let resultadoFinal;
         this.state.resultados.forEach(
             function(resultado, i){
-                if(resultado.nome === nome_resultado){
+                if(resultado.id === id_resultado){
                     resultadoFinal = resultado;
                 }
             }
