@@ -89,7 +89,7 @@
                     "id_proxima_pergunta": 6
                 },
                 {
-                    "resposta": "Não necessariamente.",
+                    "resposta": "Não.",
                     "tipo": "negacao",
                     "id_proxima_pergunta": 100
                 }
@@ -104,7 +104,7 @@
                     "id_proxima_pergunta": 15
                 },
                 {
-                    "resposta": "Não necessariamente.",
+                    "resposta": "Não.",
                     "tipo": "negacao",
                     "id_proxima_pergunta": 7
                 }
@@ -305,6 +305,5 @@
                 }
             ]
         }
-
     ]
 }
