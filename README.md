@@ -3,9 +3,9 @@
 [![Repositório](https://img.shields.io/badge/LeoRangel-SAMADAPP-green)](https://github.com/LeoRangel/alurakut-app)
 [![licence mit](https://img.shields.io/github/license/LeoRangel/SEMADAPP)](https://github.com/LeoRangel/alurakut-app/blob/main/LICENSE)
 
-> Precisa de um novo aplicativo para a sua empresa ou negócio e não sabe qual o tipo de app ideal que você precisa? Use o SEMADAPP - Sistema especialista de auxílio na escolha do Melhor Tipo de Aplicativo para desenvolver.
+> :iphone: Precisa de um novo aplicativo para a sua empresa ou negócio e não sabe qual o tipo de App ideal? Use o SEMADAPP - Sistema especialista de auxílio na escolha do Melhor Tipo de Aplicativo para desenvolver.
 > 
-> Para ver o projeto em execução acesse a [**demo**](semadapp.vercel.app)
+> Para ver o projeto em execução acesse a [**demo**](https://semadapp.vercel.app/)
 
 <p align="center">
   <img alt="Tela de login do projeto" src="./src/image/tela-site.png" />
