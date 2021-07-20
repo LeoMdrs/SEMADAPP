@@ -8,7 +8,7 @@
 > Para ver o projeto em execução acesse a [**demo**](semadapp.vercel.app)
 
 <p align="center">
-  <img alt="Tela de login do projeto" src="./src/images/tela-site.png" />
+  <img alt="Tela de login do projeto" src="./src/image/tela-site.png" />
 </p>
 
 ## Versioning/Versionamento
@@ -26,6 +26,7 @@ Consulte as [Releases](https://github.com/LeoRangel/alurakut-app/releases) para 
 
 <details>
 <summary>Mais informações</summary>
+<br />
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
